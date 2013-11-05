@@ -1,9 +1,9 @@
-require 'bundler'
+Bundler.require :web
+Bundler.require :development if development?
 
-Bundler.require
-
-require_relative 'config/rack_coffee'
-require_relative 'config/sass'
+get '/style.css' do
+  scss :style
+end
 
 get '/' do
   haml :index
