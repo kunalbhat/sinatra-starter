@@ -3,7 +3,7 @@
 
 ### Sinatra Starter uses a few common components:
 
-- [Haml]((http://haml.info/) (markup)
+- [Haml](http://haml.info/) (markup)
 - [Sass](http://sass-lang.com/) (styling)
 - [Coffeescript]() (javascript)
 - [Bundler](http://bundler.io/) (package management)
